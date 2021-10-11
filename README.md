@@ -21,7 +21,7 @@ The HTML page, has a CSS that could be changed easily
 
 ## How to highlight a key
 
-To highlight a key, you should add *selected* in the class section
+To highlight a key, you should add **selected** in the **class** section
 
 For example, the original section:
 
