@@ -1,0 +1,117 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+    background: #fff;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    padding: 0px 0px 8px 0px;
+    color: #518BD1;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    color: #2B2E28;
+    background-color: #B8E986;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 800px;
+    border: 1px dashed #333;
+}
+
+.description {
+    font-size: 16px;
+    color: #39363D;
+    background-color: #CCADE9;
+    margin: 0 auto;
+    text-transform: lowercase;
+    width: 100px;
+    text-align: center;
+    padding: 0px;
+    border: 1px dotted #333;
+}
+
+.notes {
+    font-size: 16px;
+    color: #39363D;
+    background-color: #F4F09B;
+    margin: auto;
+    width: 1000px;
+    text-align: left;
+    padding: 2px;
+    border: 1px dotted #333;
+    margin-top: 190px;
+}
+
+.piano {
+    width: auto;
+    height: 0px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fd4d3f;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.black-key {
+    width: 18px;
+    height: 90px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-left: -12px;
+    padding: 0px;
+    border: solid #141c3a 1px;
+}
+
+.black-keynote {
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+.key {
+    width: 18px;
+    height: 180px;
+    display: inline-block;
+    border: solid #141c3a 1px;
+    box-shadow: 1px 2px;
+    background-color: white;
+    color: #D1CFCF;
+}
+
+.keynote {
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 155px;
+    color: #141c3a;
+}
+
+.selected {
+    background-color: #7DA6D8;
+    color: black;
+}
+
+div.container {
+    height: 20em;
+    position: relative
+}
